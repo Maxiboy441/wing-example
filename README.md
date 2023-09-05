@@ -22,7 +22,7 @@ Before you begin, ensure you have the following tools and dependencies installed
 To get started with this example project, clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/your-username/wing-example.git
+git clone https://github.com/Maxiboy441/wing-example.git
 cd wing-example
 ```
 
@@ -50,11 +50,8 @@ Alternatively, you can also use the recommended VSCode extension to access the U
 
 ## Testing
 
-You can manually test your infrastructure or set up automated tests using the Wing framework. Detailed testing instructions and examples can be found in the [documentation](https://wing-lang.org/docs/testing).
+You can manually test your infrastructure or set up automated tests using the Wing framework. Detailed testing instructions and examples can be found in the [documentation](https://www.winglang.io/docs/concepts/tests).
 
-## Contributing
-
-We welcome contributions from the community to make this example project even better. If you'd like to contribute, please follow our [contributing guidelines](CONTRIBUTING.md).
 
 ## License
 
@@ -62,7 +59,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-If you have any questions, feedback, or need assistance, feel free to [create an issue](https://github.com/your-username/wing-example/issues) in this repository.
+If you have any questions, feedback, or need assistance, feel free to [create an issue](https://github.com/Maxiboy441/wing-example/issues) in this repository.
 
 Thank you for exploring Wing and happy infrastructure coding! 🚀
 
