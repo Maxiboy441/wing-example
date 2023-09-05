@@ -25,6 +25,7 @@ To get started with this example project, clone this repository to your local ma
 ```bash
 git clone https://github.com/your-username/wing-example.git
 cd wing-example
+```
 
 ### Compile Your Infrastructure
 
@@ -34,6 +35,7 @@ Here's an example for AWS:
 
 ```bash
 wing compile --target tf-aws hello.w
+```
 
 Replace --target tf-aws with --target tf-azure or --target tf-google as needed for your target cloud provider.
 
@@ -43,6 +45,7 @@ Wing offers a graphical user interface (UI) that allows you to visualize your in
 
 ```bash
 wing it
+```
 
 Alternatively, you can also use the recommended VSCode extension to access the UI and manage your infrastructure directly from your development environment.
 
