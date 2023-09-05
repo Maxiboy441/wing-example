@@ -14,9 +14,8 @@ In this repository, we demonstrate the capabilities of Wing by creating a simple
 
 Before you begin, ensure you have the following tools and dependencies installed:
 
-- [Wing CLI](https://wing-lang.org/docs/getting-started/installation) - Install the Wing CLI on your machine.
-- [Terraform](https://www.terraform.io/downloads.html) - You'll need Terraform to apply the compiled infrastructure code.
-- [AWS/Azure/Google Cloud CLI](https://aws.amazon.com/cli/)/[Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli)/[Google Cloud SDK](https://cloud.google.com/sdk/docs/install) - Depending on your target cloud provider, install the respective command-line tools.
+- [Wing CLI](https://www.winglang.io/docs/start-here/installation) - Install the Wing CLI on your machine.
+- [Terraform](https://developer.hashicorp.com/terraform/downloads) - You'll need Terraform to apply the compiled infrastructure code.
 
 ### Clone the Repository
 
