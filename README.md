@@ -1,6 +1,6 @@
 # Welcome to the Wing Example Project
 
-![Wing Logo](https://your-repo-url.com/wing-logo.png)
+![Wing Logo](https://uploads-ssl.webflow.com/63720940a94e098b4e2a542b/64462dbe63227401057c6c01_opengraphv4c.png)
 
 ## Overview
 
@@ -48,4 +48,23 @@ wing it
 ```
 
 Alternatively, you can also use the recommended VSCode extension to access the UI and manage your infrastructure directly from your development environment.
+
+## Testing
+
+You can manually test your infrastructure or set up automated tests using the Wing framework. Detailed testing instructions and examples can be found in the [documentation](https://wing-lang.org/docs/testing).
+
+## Contributing
+
+We welcome contributions from the community to make this example project even better. If you'd like to contribute, please follow our [contributing guidelines](CONTRIBUTING.md).
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+If you have any questions, feedback, or need assistance, feel free to [create an issue](https://github.com/your-username/wing-example/issues) in this repository.
+
+Thank you for exploring Wing and happy infrastructure coding! 🚀
+
 
