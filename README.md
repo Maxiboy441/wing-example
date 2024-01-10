@@ -48,4 +48,27 @@ Follow the instructions at https://developer.hashicorp.com/terraform/downloads
 ```bash
 git clone https://github.com/Maxiboy441/wing-example.git
 cd wing-example
-``` 
+```
+
+# Compile Your Infrastructure
+Compile your infrastructure definitions into Terraform code for your chosen cloud
+provider. Example for AWS:
+
+```bash
+wing compile --target tf-aws hello.w
+```
+
+Replace --target tf-aws with --target tf-azure or --target tf-google as needed for your target cloud provider.
+
+## Explore the Infrastructure
+
+Wing provides a graphical user interface (UI) to visualize and interact with your
+infrastructure:
+
+```bash
+wing it
+```
+Alternatively, use the recommended VSCode extension for a seamless development 
+environment integration.
+
+
