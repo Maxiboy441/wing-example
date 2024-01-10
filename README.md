@@ -1,6 +1,7 @@
 # Wing Example Project
 
 Demonstrating the capabilities of the Infrastructure as Code (IaC) language, **Wing**.
+![Wing Logo](https://uploads-ssl.webflow.com/63720940a94e098b4e2a542b/64462dbe63227401057c6c01_opengr
 
 ## Table of Contents
 
