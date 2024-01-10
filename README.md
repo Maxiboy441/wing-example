@@ -1,66 +1,51 @@
-# Welcome to the Wing Example Project
+# Wing Example Project
 
-![Wing Logo](https://uploads-ssl.webflow.com/63720940a94e098b4e2a542b/64462dbe63227401057c6c01_opengraphv4c.png)
+Demonstrating the capabilities of the Infrastructure as Code (IaC) language, **Wing**.
 
-## Overview
+## Table of Contents
 
-This GitHub repository serves as an example project for the exciting new Infrastructure as Code (IaC) language, **Wing**. Wing is a powerful IaC language that allows you to define and manage cloud infrastructure with ease. With Wing, you can compile your infrastructure definitions to Terraform code for popular cloud providers like AWS, Azure, and Google Cloud.
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Getting Started](#getting-started)
+- [Compile Your Infrastructure](#compile-your-infrastructure)
+- [Explore the Infrastructure](#explore-the-infrastructure)
+- [Testing](#testing)
+- [License](#license)
+- [Contact](#contact)
 
-In this repository, we demonstrate the capabilities of Wing by creating a simple API that utilizes various cloud services, including a database, object storage bucket, and other resources. The key highlight of Wing is its ability to compile your infrastructure definitions into Terraform code tailored to your chosen cloud provider.
+## Introduction
+
+This GitHub repository serves as an example project for Wing, an IaC language designed for defining and managing cloud infrastructure seamlessly. Wing compiles infrastructure definitions into Terraform code, offering compatibility with popular cloud providers like AWS, Azure, and Google Cloud.
+
+## Features
+
+- **Wing Language**: Utilize the powerful IaC language for defining and managing cloud infrastructure.
+- **Terraform Compatibility**: Compile infrastructure definitions into Terraform code for deployment on AWS, Azure, or Google Cloud.
+- **Demonstration API**: Create a simple API showcasing Wing's capabilities with various cloud services, including a database and object storage.
+
+## Technologies Used
+
+- [Wing CLI](https://www.winglang.io/docs/start-here/installation)
+- [Terraform](https://developer.hashicorp.com/terraform/downloads)
+
+## Installation
+
+Before you begin, make sure to install the required tools:
+
+# Install Wing CLI
+```bash
+wing_version="latest" # or specify a version
+curl -L https://www.winglang.io/install | VERSION=${wing_version} bash
+```
+# Install Terraform
+Follow the instructions at https://developer.hashicorp.com/terraform/downloads
 
 ## Getting Started
 
-### Prerequisites
-
-Before you begin, ensure you have the following tools and dependencies installed:
-
-- [Wing CLI](https://www.winglang.io/docs/start-here/installation) - Install the Wing CLI on your machine.
-- [Terraform](https://developer.hashicorp.com/terraform/downloads) - You'll need Terraform to apply the compiled infrastructure code.
-
-### Clone the Repository
-
-To get started with this example project, clone this repository to your local machine:
-
+# Clone the Repository
 ```bash
 git clone https://github.com/Maxiboy441/wing-example.git
 cd wing-example
-```
-
-### Compile Your Infrastructure
-
-Now that you have the repository locally, you can use Wing to compile your infrastructure definitions into Terraform code for your chosen cloud provider.
-
-Here's an example for AWS:
-
-```bash
-wing compile --target tf-aws hello.w
-```
-
-Replace --target tf-aws with --target tf-azure or --target tf-google as needed for your target cloud provider.
-
-### Explore the Infrastructure
-
-Wing offers a graphical user interface (UI) that allows you to visualize your infrastructure and interact with it. To open the UI, use the following command:
-
-```bash
-wing it
-```
-
-Alternatively, you can also use the recommended VSCode extension to access the UI and manage your infrastructure directly from your development environment.
-
-## Testing
-
-You can manually test your infrastructure or set up automated tests using the Wing framework. Detailed testing instructions and examples can be found in the [documentation](https://www.winglang.io/docs/concepts/tests).
-
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-If you have any questions, feedback, or need assistance, feel free to [create an issue](https://github.com/Maxiboy441/wing-example/issues) in this repository.
-
-Thank you for exploring Wing and happy infrastructure coding! 🚀
-
-
+``` 
