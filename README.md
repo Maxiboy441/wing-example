@@ -8,12 +8,10 @@ Demonstrating the capabilities of the Infrastructure as Code (IaC) language, **W
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
-- [Getting Started](#getting-started)
-- [Compile Your Infrastructure](#compile-your-infrastructure)
-- [Explore the Infrastructure](#explore-the-infrastructure)
-- [Testing](#testing)
+- [Usage](#usage)
 - [License](#license)
-- [Contact](#contact)
+- [Authors](#authors)
+- [Contributing](#contributing)
 
 ## Introduction
 
@@ -42,7 +40,7 @@ curl -L https://www.winglang.io/install | VERSION=${wing_version} bash
 # Install Terraform
 Follow the instructions at https://developer.hashicorp.com/terraform/downloads
 
-## Getting Started
+## Usage
 
 # Clone the Repository
 ```bash
@@ -71,4 +69,20 @@ wing it
 Alternatively, use the recommended VSCode extension for a seamless development 
 environment integration.
 
+## Testing
 
+Manually test your infrastructure or set up automated tests using the Wing framework. Detailed testing instructions and examples can be found in the [documentation](https://www.winglang.io/docs/concepts/tests).
+
+## License
+
+Specify the license under which your project is distributed. For example, you can use the [MIT License](LICENSE) or any other license that suits your project.
+
+
+## Authors
+
+- [Maximilian Huber (Maxiboy441)](https://github.com/Maxiboy441)
+  [![Support me on ko-fi](https://img.shields.io/badge/Support%20on-Ko--fi-%23FF5E5B)](https://ko-fi.com/maxiboy)
+
+## Contributing
+
+If you have any questions or improvements, create issues or pull requests.
