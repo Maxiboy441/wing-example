@@ -1,0 +1,43 @@
+{
+  "version": "tree-0.1",
+  "tree": {
+    "id": "root",
+    "path": "root",
+    "children": {
+      "cloud.TestRunner": {
+        "id": "cloud.TestRunner",
+        "path": "root/cloud.TestRunner",
+        "constructInfo": {
+          "fqn": "@winglang/sdk.std.TestRunner",
+          "version": "0.0.0"
+        },
+        "display": {
+          "title": "TestRunner",
+          "description": "A suite of APIs for running tests and collecting results.",
+          "hidden": true
+        }
+      },
+      "env0": {
+        "id": "env0",
+        "path": "root/env0",
+        "constructInfo": {
+          "fqn": "@winglang/sdk.std.Resource",
+          "version": "0.0.0"
+        },
+        "display": {}
+      },
+      "ParameterRegistrar": {
+        "id": "ParameterRegistrar",
+        "path": "root/ParameterRegistrar",
+        "constructInfo": {
+          "fqn": "@winglang/sdk.platform.ParameterRegistrar",
+          "version": "0.0.0"
+        }
+      }
+    },
+    "constructInfo": {
+      "fqn": "@winglang/sdk.core.App",
+      "version": "0.0.0"
+    }
+  }
+}
