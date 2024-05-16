@@ -1,4 +1,4 @@
-# Wing Example Project
+# Wing Example Project [DEPRECATED]
 
 Demonstrating the capabilities of the Infrastructure as Code (IaC) language, **Wing**.
 
